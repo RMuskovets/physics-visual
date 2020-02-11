@@ -292,7 +292,7 @@ function createShape(event, radius=10, mass=100) {
     let x = event.pageX - c.offsetLeft;
     let y = event.pageY - c.offsetTop;
 
-    objects.push(new Shape(x, y, radius, getRandomInt(-1, 1), getRandomInt(-1, 1), mass));
+    objects.push(new Shape(x, y, radius, 0, 0, mass));
 }
 
 let holdTimer;
